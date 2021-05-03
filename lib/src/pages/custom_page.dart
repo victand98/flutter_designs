@@ -18,6 +18,27 @@ class CustomPage extends StatelessWidget {
           ),
         ],
       ),
+      bottomNavigationBar: BottomNavigationBar(
+        showSelectedLabels: false,
+        showUnselectedLabels: false,
+        backgroundColor: Color.fromRGBO(55, 57, 84, 1.0),
+        selectedItemColor: Colors.pinkAccent,
+        unselectedItemColor: Color.fromRGBO(116, 117, 152, 1.0),
+        items: [
+          BottomNavigationBarItem(
+            icon: Icon(Icons.calendar_today),
+            label: "",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.bar_chart_outlined),
+            label: "",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.supervised_user_circle),
+            label: "",
+          ),
+        ],
+      ),
     );
   }
 
